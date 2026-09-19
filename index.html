@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Sabir Ali Study Hub</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <header>
+        <h1>Sabir Ali Study Hub</h1>
+
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#subjects">Subjects</a>
+            <a href="#journey">4 Year Journey</a>
+            <a href="#skills">Skills</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+            <a href="#signup">Sign Up</a>
+            <a href="#login">Login</a>
+        </nav>
+    </header>
+
+
+    <!-- HOME -->
+    <section id="home">
+
+        <h2>Welcome to My Study Journey</h2>
+
+        <p>Learn • Practice • Grow</p>
+
+        <div class="welcome-box">
+            <h3>Start Your Learning Journey</h3>
+
+            <p>
+                Learn new skills, practice every day,
+                and build your future.
+            </p>
+        </div>
+
+    </section>
+
+
+    <!-- SUBJECTS -->
+    <section id="subjects">
+
+        <h2>My Subjects</h2>
+
+        <div class="card">
+            <h3>📚 Accounting</h3>
+            <p>Learn accounting basics and concepts.</p>
+        </div>
+
+        <div class="card">
+            <h3>💰 Finance</h3>
+            <p>Learn finance concepts and fundamentals.</p>
+        </div>
+
+        <div class="card">
+            <h3>📊 Economics</h3>
+            <p>Learn basic economics concepts.</p>
+        </div>
+
+    </section>
+
+
+    <!-- 4 YEAR JOURNEY -->
+    <section id="journey">
+
+        <h2>My 4 Year Journey</h2>
+
+        <div class="card">
+            <h3>Year 1</h3>
+            <p>
+                Build basic knowledge in Accounting,
+                Finance and Economics.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>Year 2</h3>
+            <p>
+                Improve accounting, finance and
+                professional skills.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>Year 3</h3>
+            <p>
+                Work on projects and gain practical
+                experience.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>Year 4</h3>
+            <p>
+                Complete my degree and prepare
+                for my career.
+            </p>
+        </div>
+
+    </section>
+
+
+    <!-- SKILLS -->
+    <section id="skills">
+
+        <h2>My Skills</h2>
+
+        <div class="card">
+            <h3>💻 Computer Skills</h3>
+            <p>Basic computer and digital skills.</p>
+        </div>
+
+        <div class="card">
+            <h3>📊 MS Excel</h3>
+            <p>Learning Excel for accounting and data analysis.</p>
+        </div>
+
+        <div class="card">
+            <h3>🌐 HTML & CSS</h3>
+            <p>Learning website development.</p>
+        </div>
+
+    </section>
+
+
+    <!-- ABOUT -->
+    <section id="about">
+
+        <h2>About Me</h2>
+
+        <p>
+            My name is Sabir Ali. I am a BS Accounting &
+            Finance student at SMIU.
+            This website represents my learning journey,
+            skills, education and goals.
+        </p>
+
+    </section>
+
+
+    <!-- CONTACT -->
+    <section id="contact">
+
+        <h2>Contact Me</h2>
+
+        <p>
+            I am interested in learning new skills
+            and connecting with people who love
+            education and technology.
+        </p>
+
+    </section>
+
+
+    <!-- SIGN UP -->
+    <section id="signup">
+
+        <h2>Sign Up</h2>
+
+        <form onsubmit="signupUser(event)">
+
+            <input
+                type="text"
+                id="signupName"
+                placeholder="Your Name"
+                required
+            >
+
+            <input
+                type="email"
+                id="signupEmail"
+                placeholder="Your Email"
+                required
+            >
+
+            <input
+                type="password"
+                id="signupPassword"
+                placeholder="Create Password"
+                required
+            >
+
+            <button type="submit">
+                Sign Up
+            </button>
+
+        </form>
+
+        <p id="signupMessage"></p>
+
+    </section>
+
+
+    <!-- LOGIN -->
+    <section id="login">
+
+        <h2>Login</h2>
+
+        <form onsubmit="loginUser(event)">
+
+            <input
+                type="email"
+                id="loginEmail"
+                placeholder="Your Email"
+                required
+            >
+
+            <input
+                type="password"
+                id="loginPassword"
+                placeholder="Your Password"
+                required
+            >
+
+            <button type="submit">
+                Login
+            </button>
+
+        </form>
+
+        <p id="loginMessage"></p>
+
+    </section>
+
+
+    <!-- FOOTER -->
+    <footer>
+
+        <p>
+            © 2026 Sabir Ali Study Hub
+        </p>
+
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
